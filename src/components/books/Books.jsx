@@ -37,13 +37,15 @@ return;
         author:At,
         publisher:Pu
 }
-fetch("https://sample-18609-default-rtdb.firebaseio.com/sample.json,"
+fetch("https://sample1-6b6f1-default-rtdb.firebaseio.com/SAMPLE1.json",
 {
     method:"POST",
     body:JSON.stringify(myobj),
     headers:{"content-Type":"application/json"}
 }
 );
+alert("record saved")
+
 }
   return (
     <div>

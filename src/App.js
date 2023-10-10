@@ -3,6 +3,7 @@ import Login from "./components/Login/Login";
 import Home from "./components/home/Home";
 import  Course  from "./components/Course/Course";
 import Books from "./components/books/Books";
+import Bookview from "./components/books/Bookview";
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
   <Route path={'/course'} element={<Course></Course>}></Route> 
   <Route path={'/home'} element={<Home/>}></Route> 
   <Route path={'/Books'} element={<Books/>}></Route> 
- 
+ <Route path={"/Bookview"} element={<Bookview/>}></Route>
  </Routes>
  </BrowserRouter>
 
